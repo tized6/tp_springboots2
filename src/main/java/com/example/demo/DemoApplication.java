@@ -9,7 +9,7 @@ import java.util.logging.Logger;
 @SpringBootApplication
 public class DemoApplication {
 
-	private Logger logger = new Logger();
+
 
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
@@ -18,7 +18,3 @@ public class DemoApplication {
 }
 
 
-	public void run(String... args) throws Exception{
-		voitureRepository.save(new Voiture("Ford","4000000"));
-
-	}
